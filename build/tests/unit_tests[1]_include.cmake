@@ -1,0 +1,5 @@
+if(EXISTS "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/tests/unit_tests[1]_tests.cmake")
+  include("/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/tests/unit_tests[1]_tests.cmake")
+else()
+  add_test(unit_tests_NOT_BUILT unit_tests_NOT_BUILT)
+endif()

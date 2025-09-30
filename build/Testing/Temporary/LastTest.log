@@ -1,0 +1,57 @@
+Start testing: Oct 01 00:35 IST
+----------------------------------------------------------
+1/2 Testing: ClientServerTest.ClientMakesRequest
+1/2 Test: ClientServerTest.ClientMakesRequest
+Command: "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/tests/unit_tests" "--gtest_filter=ClientServerTest.ClientMakesRequest" "--gtest_also_run_disabled_tests"
+Directory: /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/tests
+"ClientServerTest.ClientMakesRequest" start time: Oct 01 00:35 IST
+Output:
+----------------------------------------------------------
+Running main() from /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ClientServerTest.ClientMakesRequest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ClientServerTest
+[ RUN      ] ClientServerTest.ClientMakesRequest
+[       OK ] ClientServerTest.ClientMakesRequest (0 ms)
+[----------] 1 test from ClientServerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ClientServerTest.ClientMakesRequest" end time: Oct 01 00:35 IST
+"ClientServerTest.ClientMakesRequest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: ClientServerTest.ServerResponds
+2/2 Test: ClientServerTest.ServerResponds
+Command: "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/tests/unit_tests" "--gtest_filter=ClientServerTest.ServerResponds" "--gtest_also_run_disabled_tests"
+Directory: /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/tests
+"ClientServerTest.ServerResponds" start time: Oct 01 00:35 IST
+Output:
+----------------------------------------------------------
+Running main() from /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ClientServerTest.ServerResponds
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ClientServerTest
+[ RUN      ] ClientServerTest.ServerResponds
+[       OK ] ClientServerTest.ServerResponds (0 ms)
+[----------] 1 test from ClientServerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ClientServerTest.ServerResponds" end time: Oct 01 00:35 IST
+"ClientServerTest.ServerResponds" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 01 00:35 IST

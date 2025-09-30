@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build",
+  "command": "/usr/bin/g++ -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/server/include -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/protocols/include -g -std=gnu++17 -o server/CMakeFiles/server_lib.dir/src/server.cpp.o -c /media/psanodiya/workspace/cpp/grpc_cpp_demo/server/src/server.cpp",
+  "file": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/server/src/server.cpp",
+  "output": "server/CMakeFiles/server_lib.dir/src/server.cpp.o"
+},
+{
+  "directory": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build",
+  "command": "/usr/bin/g++ -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/server/include -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/protocols/include -g -std=gnu++17 -o server/CMakeFiles/server_app.dir/src/main.cpp.o -c /media/psanodiya/workspace/cpp/grpc_cpp_demo/server/src/main.cpp",
+  "file": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/server/src/main.cpp",
+  "output": "server/CMakeFiles/server_app.dir/src/main.cpp.o"
+},
+{
+  "directory": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build",
+  "command": "/usr/bin/g++ -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/client/include -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/protocols/include -g -std=gnu++17 -o client/CMakeFiles/client_lib.dir/src/client.cpp.o -c /media/psanodiya/workspace/cpp/grpc_cpp_demo/client/src/client.cpp",
+  "file": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/client/src/client.cpp",
+  "output": "client/CMakeFiles/client_lib.dir/src/client.cpp.o"
+},
+{
+  "directory": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build",
+  "command": "/usr/bin/g++ -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/client/include -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/protocols/include -g -std=gnu++17 -o client/CMakeFiles/client_app.dir/src/main.cpp.o -c /media/psanodiya/workspace/cpp/grpc_cpp_demo/client/src/main.cpp",
+  "file": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/client/src/main.cpp",
+  "output": "client/CMakeFiles/client_app.dir/src/main.cpp.o"
+},
+{
+  "directory": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build",
+  "command": "/usr/bin/g++ -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/tests/../client/include -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/tests/../server/include -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/client/include -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/protocols/include -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/server/include -isystem /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest/include -isystem /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest -g -std=gnu++17 -o tests/CMakeFiles/unit_tests.dir/test_client_server.cpp.o -c /media/psanodiya/workspace/cpp/grpc_cpp_demo/tests/test_client_server.cpp",
+  "file": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/tests/test_client_server.cpp",
+  "output": "tests/CMakeFiles/unit_tests.dir/test_client_server.cpp.o"
+},
+{
+  "directory": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build",
+  "command": "/usr/bin/g++ -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googlemock/include -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googlemock -isystem /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest/include -isystem /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build",
+  "command": "/usr/bin/g++ -isystem /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googlemock/include -isystem /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googlemock -isystem /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest/include -isystem /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build",
+  "command": "/usr/bin/g++ -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest/include -I/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build",
+  "command": "/usr/bin/g++ -isystem /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest/include -isystem /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

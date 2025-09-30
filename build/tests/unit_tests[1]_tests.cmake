@@ -1,0 +1,5 @@
+add_test([=[ClientServerTest.ClientMakesRequest]=]  /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/tests/unit_tests [==[--gtest_filter=ClientServerTest.ClientMakesRequest]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ClientServerTest.ClientMakesRequest]=]  PROPERTIES WORKING_DIRECTORY /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[ClientServerTest.ServerResponds]=]  /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/tests/unit_tests [==[--gtest_filter=ClientServerTest.ServerResponds]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[ClientServerTest.ServerResponds]=]  PROPERTIES WORKING_DIRECTORY /media/psanodiya/workspace/cpp/grpc_cpp_demo/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  unit_tests_TESTS ClientServerTest.ClientMakesRequest ClientServerTest.ServerResponds)
