@@ -1,3 +1,0 @@
-/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-/media/psanodiya/workspace/cpp/grpc_cpp_demo/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
