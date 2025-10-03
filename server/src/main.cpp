@@ -1,8 +1,7 @@
 #include "server.h"
-#include <iostream>
 
-int main() {
-  server::Server s;
-  std::cout << s.SayHello("world") << std::endl;
-  return 0;
+int main(int argc, char** argv) {
+    server::Server server;
+    server.Run("0.0.0.0:50051");
+    return 0;
 }

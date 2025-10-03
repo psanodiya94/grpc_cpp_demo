@@ -1,15 +1,15 @@
 syntax = "proto3";
 
-package demo;
+package sample;
 
-service DemoService {
-  rpc SayHello(HelloRequest) returns (HelloReply) {}
+service SampleService {
+  rpc SampleCall (SampleRequest) returns (SampleResponse) {}
 }
 
-message HelloRequest {
-  string name = 1;
+message SampleRequest {
+  string input = 1;
 }
 
-message HelloReply {
-  string message = 1;
+message SampleResponse {
+  string output = 1;
 }
